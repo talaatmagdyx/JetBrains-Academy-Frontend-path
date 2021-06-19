@@ -1,0 +1,34 @@
+body{
+    background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.title{
+    color: #2F4F4F;
+    text-align: center;
+    font-family: Serif, serif;
+
+}
+.flex-parent{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+
+}
+
+.flex-item{
+    border: 1px solid #F9EFE5;
+    background-color: #F9EFE5;
+    text-align: center;
+    padding: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: #F27C30;
+}
